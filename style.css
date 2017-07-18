@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: green;
+    padding: 25px;
+    text-align: right;
+    color: white; 
+    
+}
+.header input[type="email"],input[type="password"]{
+  height: 30px;
+    width: 100px;
+    font-size: 10px;
+}
+.header input[type="button"]{
+    padding: 10px;
+    display: inline-block; 
+}
+
+.header input:hover{
+    background: red;
+    
+}
+.Information-form{
+    background: #C0C0C0;
+    padding: 55px;
+    text-align: right;
+    font-size: 20px;
+}
+.Information-form input[type="text"],input[type="email"],input[type="number"],input[type="number"]{
+ 
+  height: 30px;
+    width: 300px;
+    font-size: 10px;  
+    
+}
+.futter{
+    background:  #138d75;
+    padding: 23px;
+}
+.futter-texr li{
+     list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+}
+.futtur-icon i{
+   padding: 25px;
+    font-size: 20px;
+}
+.futter-texr li:hover{
+    color: red
+}
